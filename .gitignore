@@ -1,0 +1,229 @@
+### C extensions ###
+*.so
+
+
+### Python Byte-compiled / optimized / DLL files ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+### Python Distribution / packaging ###
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### PyInstaller files ###
+*.manifest
+*.spec
+
+### Python Installer logs ###
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Python Unit test / coverage reports ###
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+### Translation files ###
+*.mo
+*.pot
+
+### Django specific files ###
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+### Flask specific files ###
+instance/
+.webassets-cache
+
+### Scrapy project files ###
+.scrapy
+
+### Sphinx documentation files ###
+docs/_build/
+
+### PyBuilder project files ###
+target/
+
+### Jupyter Notebook checkpoints ###
+.ipynb_checkpoints
+
+### IPython settings ###
+profile_default/
+ipython_config.py
+
+### pyenv Python version file ###
+.python-version
+
+### Virtual environments ###
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### mkdocs documentation site directory ###
+/site
+
+### Python type checker cache files ###
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+### Pyre type checker ###
+.pyre/
+
+### Ansible specific files ###
+*.retry
+*.vault
+
+### Terraform specific files ###
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+### Kubernetes / OpenShift specific files ###
+.kube/
+.kubeconfig
+kubectl.log
+*.log
+*.out
+.kubectl/
+
+### Editor backup and swap files ###
+*~
+*.swp
+*.bak
+*.orig
+*.tmp
+*.old
+
+### Node.js / JavaScript / TypeScript ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+*.tsbuildinfo
+.next/
+.cache/
+.vscode/
+
+### Java specific files ###
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.project
+*.classpath
+*.settings/
+*.factorypath
+target/
+build/
+out/
+*.log
+
+### Golang specific files ###
+*.exe
+*.test
+*.out
+vendor/
+
+### C / C++ specific files ###
+*.o
+*.a
+*.d
+*.obj
+*.exe
+*.out
+*.class
+
+### HTML / CSS / JS minified files ###
+*.min.css
+*.min.js
+*.map
+
+### Temporary Files / Folders ###
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+tmp/
+temp/
+logs/
+log/
+
+### Secrets and credentials ###
+*.pem
+*.key
+*.crt
+*.env
+*.secret
+
+### IDE / Editor Directories ###
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+### Ignore build artifacts and cache directories ###
+target/
+build/
+output/
+dist/
+.cache/
+
+# Ignore everything by default
+*
+
+# Include .gitignore and README.md explicitly
+!.gitignore
+!README.md
+
+
+# Include Python Files 01-tiny-projects
+
+!CopyFilesWithTimestamp.ps1
+!vbox-any-vm-reset-snapshot.ps1
+!vbox-shutdown-all.ps1
+!power-on-vms.ps1
+!create-snaphost-after-deleting-all-sanpshot.ps1
+
+### Ignore any file or folder that contains 'exclude' in its name
+*omit*
+**/*omit*
