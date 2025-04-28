@@ -223,6 +223,8 @@ dist/
 !vbox-shutdown-all.ps1
 !power-on-vms.ps1
 !create-snaphost-after-deleting-all-sanpshot.ps1
+#!util.temp.data.backup.sh
+!test.test
 
 ### Ignore any file or folder that contains 'exclude' in its name
 *omit*
